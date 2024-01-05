@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  background-color: #24053e;
+  height: 642px;
+  background-image: url(assets/images/bg-pattern-1.svg),
+    url(assets/images/bg-pattern-2.svg);
+  background-repeat: no-repeat;
+  background-position: -10% 50%, 106% 75%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  max-width: 1100px;
+  margin: auto;
+}
+header a {
+  color: white;
+  font: size 18px;
+  text-decoration: none;
+  border-bottom: 3px solid #44ffa1;
+  font-weight: bold;
+}
+p.hero {
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  font-weight: 600px;
+  line-height: 80px;
+  max-width: 635px;
+  margin: auto;
+}
+button {
+  width: 161px;
+  height: 61px;
+  margin: auto;
+  display: block;
+  background-color: #44ffa1;
+  margin-top: 30px;
+}
+button:hover {
+  background-color: #8bf8c2;
+}
+img {
+  width: 702px;
+  height: 405px;
+  margin: auto;
+  display: block;
+  margin-top: 40px;
+}
+.container {
+  display: flex;
+  text-align: center;
+  max-width: 1100px;
+  margin: auto;
+}
+.circle {
+  border: 1px solid grey;
+
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container > div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.s3 {
+  padding: 50px;
+}
+.backround {
+  background-image: url(assets/images/image-founder.webp);
+  background-repeat: no-repeat;
+  background-size: 450px 453px;
+  display: flex;
+  justify-content: end;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.backround div {
+  background-color: #24053e;
+  width: 730px;
+  padding: 30px;
+  margin-top: 150px;
+  margin-bottom: 32px;
+  position: relative;
+}
+.h1 {
+  color: white;
+  font-size: 56px;
+  font-weight: 600px;
+  line-height: 64px;
+}
+.p1 {
+  color: white;
+  font-size: 18px;
+  font-weight: 400px;
+  font-style: normal;
+}
+.apply {
+  margin-left: 5px;
+}
+.backround img {
+  position: absolute;
+  width: 173px;
+  height: 137px;
+  bottom: -40px;
+  right: 50px;
+}
+footer svg {
+  margin: auto;
+  display: block;
+}
+footer {
+  padding: 20px;
+}
